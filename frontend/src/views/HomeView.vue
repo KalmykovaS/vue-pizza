@@ -21,7 +21,9 @@
                   class="visually-hidden"
                   checked
                 />
-                <img :src="getImage(doughType.image)" :alt="doughType.name" />
+                <img
+                  :src="getImage(doughType.image)" 
+                  :alt="doughType.name" />
 
                 <b>{{ doughType.name }}</b>
                 <span>{{ doughType.description }}</span>
